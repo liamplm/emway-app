@@ -1,0 +1,14 @@
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@color/blue"/>
+
+    <item
+        android:width="200dp"
+        android:height="200dp"
+        android:background="#f00"
+        android:gravity="center" />
+        <!-- android:drawable="@mipmap/ic_launcher" -->
+
+</layer-list>

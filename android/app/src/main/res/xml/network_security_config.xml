@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config>
+      <domain includeSubdomains="true">37.187.204.53</domain>
+      <domain includeSubdomains="true">emway.ir</domain>
+      <domain includeSubdomains="true">alopeyk.com</domain>
+    </domain-config>
+</network-security-config>
+
+
+<!-- <?xml version="1.0" encoding="utf-8"?> -->
+<!-- <network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">37.187.204.53</domain>
+    </domain-config>
+</network-security-config> -->
+<!-- <?xml version="1.0" encoding="utf-8"?>
+<network-security-config> -->
+    <!--Set application-wide security config using base-config tag.-->
+    <!-- <base-config cleartextTrafficPermitted="true"/> -->
+<!--
+  <domain-config useCleartextTraffic="true">
+    <domain includeSubdomains="true">37.187.204.53</domain>
+    <domain includeSubdomains="true">emway.ir</domain>
+    <domain includeSubdomains="true">alopeyk.com</domain>
+  </domain-config>
+</network-security-config> -->

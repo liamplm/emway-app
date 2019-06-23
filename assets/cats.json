@@ -1,0 +1,95 @@
+[
+    {
+        "id": 1,
+        "name": "رستوران و فست فود و کافه و بستنی",
+        "icon": "utensils"
+    },
+    {
+        "id": 2,
+        "name": "هتل و سفر",
+        "icon": "hotel"
+    },
+    {
+        "id": 3,
+        "name": "هایپر مارکت و سوپر مارکت ها",
+        "icon": "shopping-basket"
+
+    },
+    {
+        "id": 4,
+        "name": "تبلیغات و چاپخانه",
+        "icon": "ad"
+    },
+    {
+        "id": 5,
+        "name": "لوازم خانگی و کاربردی منزل",
+        "icon": "tv"
+    },
+    {
+        "id": 6,
+        "name": "سلامتی و پزشکی",
+        "icon": "stethoscope"
+    },
+    {
+        "id": 7,
+        "name": "خدمات اتومبیل",
+        "icon": "car"
+    },
+    {
+        "id": 8,
+        "name": "زیبایی و آرایشی",
+        "icon": "user"
+
+    },
+    {
+        "id": 9,
+        "name": "آموزشی",
+        "icon": "book"
+    },
+    {
+        "id": 10,
+        "name": "ورزشی و تفریحی",
+        "icon": "futbol"
+    },
+    {
+        "id": 11,
+        "name": "سینما ، تئاتر ،هنر",
+        "icon": "theater-masks"
+    },
+    {
+        "id": 12,
+        "name": "فروشگاه و گالری",
+        "icon": "store"
+
+    },
+    {
+        "id": 14,
+        "name": "خدمات",
+        "icon": "people-carry"
+    },
+    {
+        "id": 15,
+        "name": "فروشگاه عمده فروشی",
+        "icon": "shopping-cart"
+    },
+    {
+        "id": 16,
+        "name": "طلا و نقره و بدلیجات",
+        "icon": "gem"
+    },
+    {
+        "id": 18,
+        "name": "قنادی - مرغ و گوشت و ماهی",
+        "icon": "drumstick-bite"
+    },
+    {
+        "id": 19,
+        "name": "ساختمان",
+        "icon": "building"
+    },
+    {
+        "id": 20,
+        "name": "آجیل و خشکبار - شیرینی فروشی",
+        "icon": "cookie-bite"
+    }
+]

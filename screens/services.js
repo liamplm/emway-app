@@ -34,7 +34,7 @@ export default class Services extends Component {
     }).then(response => {
       if (response.ok) {
         response.json().then((res) => {
-          this.setState({ services: [...res, ...res], isLoad: false })
+          this.setState({ services: res, isLoad: false })
         })
       } else {
         Alert.alert('مشکل در اتصال به سررور !!!', `

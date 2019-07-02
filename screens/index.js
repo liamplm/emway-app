@@ -28,7 +28,9 @@ export default Routes = {
     Services: {
         title: 'خدمات',
         screen: Services,
-        icon: require('../images/report-3-64.png')
+        isFaIcon: true,
+        icon: 'list'
+        // icon: require('../images/report-3-64.png')
     },
     FAQ: {
         title: 'پرسش های متداول',

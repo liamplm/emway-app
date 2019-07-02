@@ -57,7 +57,7 @@ const AppNavigator = createStackNavigator(
           // backgroundColor: '#f15f2a',
           backgroundColor: '#f15f2a',
         },
-        headerTintColor: '#x`',
+        headerTintColor: '#fff',
         headerTitleStyle: {
           color: 'white',
         },
@@ -150,7 +150,7 @@ export default class App extends Component {
                   Routes[item].isFaIcon ? (<Icon name={Routes[item].icon} size={30} color="white"></Icon>) :
                     <Image
                       resizeMode="contain"
-                      style={{ width: 30, height: 30, }}
+                      style={{ width: 30, height: 30 }}
                       source={Routes[item].icon}
                     />
                 }

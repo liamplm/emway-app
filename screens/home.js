@@ -68,14 +68,19 @@ export default class Home extends Component {
         </View>
 
         <View style={{ flex: 1, flexDirection: 'row', }}>
-          <TouchableHighlight style={styles.box} onPress={() => Linking.openURL('https://emway.ir/Account/Register')}>
+          <TouchableHighlight style={styles.box} onPress={() => this.props.navigation.navigate('Services')}>
             <View style={styles.boxContent}>
               <Icon
-                name="md-lock"
+                name="md-list"
                 color="#9C27B0"
                 size={60}
               />
-              <Text style={styles.boxContentText}>ثبت نام</Text>
+              {/* <Image
+                resizeMode="contain"
+                style={{ width: 30, height: 30 }}
+                source={require('../images/report-3-64.png')}
+              /> */}
+              <Text style={styles.boxContentText}>خدمات</Text>
             </View>
           </TouchableHighlight>
           <TouchableHighlight style={styles.box} onPress={() => Linking.openURL('https://emway.ir')}>

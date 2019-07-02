@@ -34,7 +34,10 @@ export default class FAQ extends Component {
                 if (response.status === 200) {
                     return response.json();
                 } else {
-                    throw new Error('Something went wrong on api server!');
+                  Alert.alert('مشکل در اتصال به سررور !!!', `
+                  -اتصال خود را به اینترنت بررسی کنید
+                  `)
+                  this.props.navigation.navigate('Home');
                 }
             })
             .then(response => {
@@ -42,7 +45,10 @@ export default class FAQ extends Component {
                 this.setState({ questions: response, isLoad: false })
                 // ...
             }).catch(error => {
-                console.error(error);
+              Alert.alert('مشکل در اتصال به سررور !!!', `
+              -اتصال خود را به اینترنت بررسی کنید
+              `)
+              this.props.navigation.navigate('Home');;
             });
     }
     state = {
